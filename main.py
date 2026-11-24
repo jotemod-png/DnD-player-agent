@@ -50,7 +50,7 @@ async def rol_dobbelsteen(
 
 
 agent = agents.Agent(
-    model="magistral-medium-latest",
+    model="ministral-14b-2512",
     name="dnd-gm-agent",
     instructions=INSTRUCTIONS,
     tools=[rol_dobbelsteen],
